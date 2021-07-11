@@ -1,0 +1,15 @@
+<svg fill="inherit" xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 45 45">
+    <defs>
+        <filter id="bpyxhntgya">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="inherit" fill-rule="evenodd" transform="translate(-8 -8)">
+        <g fill="inherit">
+            <g fill="inherit" fill-rule="nonzero">
+                <path  d="M20.04 25.924l9.374-3.713c.352-.13.586-.48.586-.856V.932c0-.305-.161-.595-.41-.769-.264-.174-.586-.203-.88-.087l-9.023 3.568L10.665.076c-.234-.101-.469-.101-.703 0L.586 3.79C.234 3.92 0 4.27 0 4.645v20.423c0 .305.161.595.41.769.161.101.337.16.528.16.117 0 .234-.015.351-.073l9.024-3.568 9.023 3.568c.234.101.469.101.703 0zM19 24l-8-3.373V2l8 3.373V24zM2 24V5.21L10 2v18.79L2 24zm19 0V5.21L29 2v18.79L21 24z" transform="translate(8 8) translate(7 10)"/>
+                <path  d="M12 1L12 22 9 22 9 1zM29.3-.5c.78 0 1.42.595 1.493 1.356L30.8 1v20.2c0 .828-.672 1.5-1.5 1.5-.78 0-1.42-.595-1.493-1.356L27.8 21.2V1c0-.828.672-1.5 1.5-1.5z" transform="translate(8 8) translate(7 10)"/>
+            </g>
+        </g>
+    </g>
+</svg>

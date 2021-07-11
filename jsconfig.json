@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "globalState": ["src/globalState/"],
+      "globalStateReducer/*": ["src/globalState/reducers/*"],
+      "utils/*": ["src/utils/*"],
+      "api/*": ["src/api/*"],
+      "assets/*": ["src/assets/*"],
+      "styles/*": ["src/styles/*"],
+      "effects/*": ["src/effects/*"],
+      "basicComponents/*": ["src/basicComponents/*"],
+      "constants/*": ["src/constants/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

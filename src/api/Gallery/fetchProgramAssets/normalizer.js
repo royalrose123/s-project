@@ -1,0 +1,53 @@
+import Service from 'api/service'
+
+const programAssetItem = ({
+  assetFile,
+  assetFormat,
+  assetFormatType,
+  assetLanguage,
+  assetName,
+  assetPlatform,
+  assetProgram,
+  assetSize,
+  campaignDescription,
+  campaignName,
+  createUser,
+  createdTimestamp,
+  endDate,
+  id,
+  startDate,
+  webUrl,
+  assetFilePath,
+  tags,
+  assetCtaOpt,
+  ...media
+}) => ({
+  format: assetFormat,
+  size: assetSize,
+  file: assetFile,
+  language: assetLanguage,
+  assetName,
+  platform: assetPlatform,
+  formatType: assetFormatType,
+  program: assetProgram,
+  campaignDescription,
+  campaignName,
+  createUser,
+  createdTimestamp: Number(createdTimestamp),
+  endDate: Number(endDate),
+  assetId: id,
+  startDate: Number(startDate),
+  webUrl,
+  mediaURL: assetFilePath,
+  tags,
+  assetCta: assetCtaOpt,
+  ...media,
+})
+
+export default ({ links, results, page, pageSize, total }) => ({
+  next: links.next,
+  programAssetList: Service.normalizeList(results, programAssetItem),
+  currentPage: page,
+  pageSize: pageSize,
+  totalAssets: total,
+})

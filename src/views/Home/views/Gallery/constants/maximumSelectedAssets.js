@@ -1,0 +1,1 @@
+export const MAXIMUM_SELECTED_ASSETS = 50

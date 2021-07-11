@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <g fill="none" fill-rule="evenodd" stroke="inherit" transform="translate(1 2)">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.781 5.754L14 6c-4.668 5.333-9.335 5.333-14 .001V6h0l.001-.001.218-.245C4.74.749 9.262.749 13.78 5.754z"/>
+        <circle cx="7" cy="6" r="2.5"/>
+        <path stroke-linecap="round" stroke-linejoin="round" d="M0 12L14 0"/>
+    </g>
+</svg>

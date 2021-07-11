@@ -1,0 +1,96 @@
+{
+  "styled": [
+    {
+      "value": 0,
+      "label": "Points"
+    },
+    {
+      "value": 1,
+      "label": "Heatmap"
+    },
+    {
+      "value": 2,
+      "label": "Hex Tiles"
+    },
+    {
+      "value": 3,
+      "label": "Cluster"
+    },
+    {
+      "value": 4,
+      "label": "GeoJson"
+    }
+  ],
+  "datasource": [
+    {
+      "value": 0,
+      "label": "Performance Data"
+    },
+    {
+      "value": 1,
+      "label": "Survey Data"
+    }
+  ],
+  "countries": [
+    {
+      "value": 0,
+      "label": "All Countries"
+    },
+    {
+      "value": 1,
+      "label": "Sri Lanka"
+    },
+    {
+      "value": 2,
+      "label": "Malaysia"
+    },
+    {
+      "value": 3,
+      "label": "Indonesia"
+    },
+    {
+      "value": 4,
+      "label": "India"
+    },
+    {
+      "value": 5,
+      "label": "Bangladesh"
+    },
+    {
+      "value": 6,
+      "label": "Thailand"
+    },
+    {
+      "value": 7,
+      "label": "Vietnam"
+    },
+    {
+      "value": 8,
+      "label": "Iraq",
+      "selected": false,
+      "key": "countries"
+    },
+    {
+      "value": 9,
+      "label": "Iran"
+    },
+    {
+      "value": 10,
+      "label": "Afghanistan"
+    },
+    {
+      "value": 11,
+      "label": "Pakistan"
+    }
+  ],
+  "campaigns": [
+    {
+      "value": 0,
+      "label": "Zero Chance Campaign"
+    },
+    {
+      "value": 1,
+      "label": "Hazel_Test"
+    }
+  ]
+}
